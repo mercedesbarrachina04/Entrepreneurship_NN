@@ -6,3 +6,6 @@ The algorithm used in this work is based on neural networks. Neural networks are
 The neural network used in this study has been an RNN-LSTM network consisting of 5 layers of neurons: the input layer, 3 internal layers of 80 nodes each, and the output layer, all of them using the activation function 'relu '. The neural network has been implemented using the Keras framework. Once the network has been trained, it is necessary to evaluate its performance. The measures used to assess network performance are Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE). The RMSE is calculated by taking the square root of the average of the squared differences between the predicted and observed values. The MAE is calculated considering the average of all the absolute error values of the predictions.
 
 Neural networks are based on 2 basic phases: training phase and testing phase. The data must be divided into 2 subsets so that they can be used in these phases. 70% of the data has been used to train the constructed neural network and the remaining 30% to test and evaluate its operation.
+
+The data utilized in this project is condensed in the file "Data_final.csv"
+The code utilized to build the model and test it can be found in the file "NN_Entrepreneurship.ipynb"
